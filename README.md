@@ -1,4 +1,4 @@
-# 🛩️ F-35 Flight Simulator – Throttle Control System
+# 🛩️ F-35 Flight Simulator
 
 This repository contains the complete hardware/software stack for a custom throttle control system used in an F-35 flight simulator. It includes:
 
