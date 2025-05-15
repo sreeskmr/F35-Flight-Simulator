@@ -1,0 +1,6 @@
+{
+    "min_adc": 200,
+    "max_adc": 820,
+    "reverse_axis": false
+  }
+  

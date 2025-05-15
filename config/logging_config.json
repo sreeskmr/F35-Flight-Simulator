@@ -1,0 +1,6 @@
+{
+    "log_interval_ms": 50,
+    "log_directory": "logs",
+    "include_timestamp": true
+  }
+  
