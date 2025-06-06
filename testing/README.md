@@ -78,6 +78,8 @@ In Microsoft Flight Simulator:
 1. Go to Controls Options > vJoy Device
 2. You should see it listed as a recognized DirectInput controller
 
+---
+
 Bind:
 1. Throttle Axis → X-axis
 2. Button 1, Button 2, etc. → Any function (gear, flaps, etc.)
