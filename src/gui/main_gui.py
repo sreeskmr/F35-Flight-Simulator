@@ -1,7 +1,32 @@
 import tkinter as tk
 from tkinter import scrolledtext, filedialog
-import RPi.GPIO as GPIO
-import spidev
+
+# import RPi.GPIO as GPIO
+try:
+    import RPi.GPIO as GPIO
+except (ImportError, RuntimeError):
+    from fake_rpi.RPi import GPIO
+
+# import spidev
+try:
+    import spidev
+except ImportError:
+    class SpiDev:
+        def __init__(self):
+            print("<<< Using fake spidev >>>")
+
+        def open(self, bus, device):
+            print(f"Opening fake SPI bus {bus}, device {device}")
+
+        def xfer2(self, data):
+            print(f"Transferring data over fake SPI: {data}")
+            return [0] * len(data)  # return dummy data
+
+        def close(self):
+            print("Closing fake SPI device")
+
+    spidev = type('spidev', (), {'SpiDev': SpiDev})
+
 import time
 from threading import Thread
 from datetime import datetime
