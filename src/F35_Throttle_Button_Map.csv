@@ -1,0 +1,27 @@
+ID,Label,Control Type,Ideal Function,Target Sim(s)
+1,T1 - Cage/Uncage,Push Button,Toggle sensor lock (like radar lock),MSFS/DCS
+2,T2 - Left,5-Way Switch,Cycle previous weapon type,DCS
+3,T2 - Right,5-Way Switch,Cycle next weapon type,DCS
+4,T2 - Up,5-Way Switch,Weapon mode: air-to-air,DCS
+5,T2 - Down,5-Way Switch,Weapon mode: air-to-ground,DCS
+6,T2 - Center,5-Way Switch,Confirm selection / fire weapon,MSFS/DCS
+7,T3 - Up,4-Way or Analog Switch,Move targeting pod/radar cursor up,MSFS/DCS
+8,T3 - Down,4-Way or Analog Switch,Move targeting pod/radar cursor down,MSFS/DCS
+9,T3 - Left,4-Way or Analog Switch,Move targeting pod/radar cursor left,MSFS/DCS
+10,T3 - Right,4-Way or Analog Switch,Move targeting pod/radar cursor right,MSFS/DCS
+11,T4 - Accel,2-Position Spring Switch,Throttle up / speed brake retract,MSFS/DCS
+12,T4 - Decel,2-Position Spring Switch,Throttle down / speed brake extend,MSFS/DCS
+13,T5 - Chaff,3-Position Switch,Anti-radar countermeasure,DCS
+14,T5 - Flare,3-Position Switch,Anti-IR countermeasure,DCS
+15,T5 - Auto,3-Position Switch,Activate CM auto mode,DCS
+16,T6 - AutoSTO,Push Button,Trigger auto short takeoff,MSFS
+17,T8 - Scroll Up,Rotary/Scroll,Zoom in / G1000 softkey Up,MSFS
+18,T8 - Scroll Down,Rotary/Scroll,Zoom out / G1000 softkey Down,MSFS
+19,T9 - Top,3-Position Toggle,Increase radar elevation / range,DCS
+20,T9 - Center,3-Position Toggle,No action,N/A
+21,T9 - Bottom,3-Position Toggle,Decrease radar elevation / range,DCS
+22,T10 - Button,Push Button,Switch between CCD / FLIR camera modes,MSFS
+23,T11 - Standard,3-Position Switch,Landing/nav lights,MSFS/DCS
+24,T11 - NVG,3-Position Switch,Night vision lights,DCS
+25,T11 - Off,3-Position Switch,All exterior lights off,MSFS/DCS
+26,T12 - Pitch Override,Push Button,Disable pitch hold / emergency override,MSFS/DCS
