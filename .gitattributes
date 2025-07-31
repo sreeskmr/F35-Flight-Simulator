@@ -1,0 +1,1 @@
+dist/F35_Installer.zip filter=lfs diff=lfs merge=lfs -text
