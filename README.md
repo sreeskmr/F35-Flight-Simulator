@@ -52,7 +52,7 @@ Copy this IP (e.g., `192.168.1.42`) — you’ll enter it into the GUI on your P
 
 ### 2. 🖥️ Install the F35 Software on Your PC
 
-1. Download `F35_Installer.exe` from the [GitHub Releases](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases)
+1. Download `F35_Installer.exe` from the [GitHub Releases](https://github.com/sreeskmr/F35-Flight-Simulator/releases)
 2. Run the installer
 3. Launch the program via the desktop or Start Menu
 
